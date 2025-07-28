@@ -2,8 +2,10 @@
 
 #include <iostream>
 
-typedef char* string;
+typedef std::string string;
 
-int print(string* msg) {
+inline int print(string msg) {
     std::cout << msg << std::endl;
+
+    return 0;
 }

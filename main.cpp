@@ -5,5 +5,5 @@
 #include <sstream>
 
 int main() {
-    print("Number Guessing Game!")
+    print("Number Guessing Game!");
 }
