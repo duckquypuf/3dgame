@@ -5,9 +5,5 @@
 #include <sstream>
 
 int main() {
-    bool running = true;
-    
-    while(running) {
-        Console.clear()
-    }
+    std::cout << "hi" << std::endl;
 }
